@@ -86,5 +86,25 @@ function removeUrlAnchor(url){
     return url.split('#')[0];
   }
 
+//Now you have to write a function that takes an argument and returns the square of it.
+
+// Write the "square"-function here
+
+let square = function Numsquare(num){
+  
+  return Math.pow(num, 2)
+
+}
+
+//We need a function that can transform a number (integer) into a string.
+
+//What ways of achieving this do you know?
+
+function numberToString(num) {
+  // Return a string of the number here!
+  return num.toString()
+//   return String(num)
+}
+
 
 
